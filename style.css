@@ -1,0 +1,214 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%; 
+  -webkit-text-size-adjust: 100%;
+ }
+ 
+body {
+  margin: 0; }
+
+input {
+  color: inherit;
+  font: inherit;
+  margin-top:1%;
+  margin-bottom:1%;
+  #9B27AF
+  }
+
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+textarea {
+  overflow: auto; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  color: #039be5;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent; }
+
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style-type: none; }
+
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #9B27AF }
+
+i {
+  line-height: inherit; }
+  i.left {
+    float: left;
+    margin-right: 15px; }
+  i.right {
+    float: right;
+    margin-left: 15px; }
+  i.tiny {
+    font-size: 1rem; }
+  i.small {
+    font-size: 2rem; }
+  i.medium {
+    font-size: 4rem; }
+  i.large {
+    font-size: 6rem; }
+
+img.responsive-img, video.responsive-video {
+  max-width: 100%;
+  height: auto; }
+
+
+table {
+ 
+  display: table;
+   padding:0 40%;
+    
+  }
+
+
+thead {
+  }
+
+td, th {
+
+  display: table-cell;
+  text-align: center;
+ }
+ p {
+	 font: inherit;
+	 font-size: 20;
+	 padding:0 49%;
+ }
+
+
+
+.hide {
+  display: none !important; }
+
+.left-align {
+  text-align: left; }
+
+.right-align {
+  text-align: right; }
+
+.center, .center-align {
+  text-align: center; }
+
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
+
+.no-padding {
+  padding: 0 !important; }
+
+
+nav {
+  color: #fff;
+  background-color:#9B27AF ;
+  width: 100%;
+  height: 56px;
+  line-height: 56px; }
+  nav a {
+    color: #fff; }
+  nav .nav-wrapper {
+    position: relative;
+    height: 100%; }
+    nav .nav-wrapper i {
+      display: block;
+      font-size: 2rem; }
+  @media only screen and (min-width : 993px) {
+    nav a.button-collapse {
+      display: none; } }
+  nav .button-collapse {
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px; }
+    nav .button-collapse i {
+      font-size: 2.7rem;
+      height: 56px;
+      line-height: 56px; }
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap; }
+    nav .brand-logo.center {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    @media only screen and (max-width : 992px) {
+      nav .brand-logo {
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); }
+        nav .brand-logo.left, nav .brand-logo.right {
+          padding: 0;
+          -webkit-transform: none;
+          -moz-transform: none;
+          -ms-transform: none;
+          -o-transform: none;
+          transform: none; }
+        nav .brand-logo.left {
+          left: 0.5rem; }
+        nav .brand-logo.right {
+          right: 0.5rem;
+          left: auto; } }
+    nav .brand-logo.right {
+      right: 0.5rem;
+      padding: 0; }
+  nav ul {
+    margin: 0; }
+    nav ul li {
+      -webkit-transition: background-color .3s;
+      -moz-transition: background-color .3s;
+      -o-transition: background-color .3s;
+      -ms-transition: background-color .3s;
+      transition: background-color .3s;
+      float: left;
+      padding: 0; }
+      nav ul li:hover, nav ul li.active {
+        background-color: rgba(0, 0, 0, 0.1); }
+    nav ul a {
+      font-size: 1rem;
+      color: #fff;
+      display: block;
+      }
+    
+
+html {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87); 
+  font-size: 15px;}
+
+body {
+  background-color: #fcfcfc; }
